@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  position: relative;
+  height: 100%;
+  background: #000000; }
+
+.swiper-container {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50%; }
+
+.swiper-slide {
+  background-size: cover !important;
+  box-sizing: border-box;
+  padding: 8em;
+  color: #ffffff;
+  font-family: "Monserrat"; }
+  .swiper-slide h1 {
+    font-size: 5em;
+    line-height: 1em; }
+    .swiper-slide h1:before {
+      content: " ";
+      position: absolute;
+      top: 1em;
+      width: 50%;
+      height: 40%;
+      border-top: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff; }
+  .swiper-slide p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 4em; }
+
+.slide1 {
+  background: url("../img/fire.jpg");
+  background-size: cover; }
+  .slide1 h1:before {
+    border-left: 1px solid #ffffff;
+    right: 0; }
+
+.slide2 {
+  background: url("../img/water.jpg");
+  background-size: cover; }
+  .slide2 h1:before {
+    border-right: 1px solid #ffffff;
+    left: 0; }
+  .slide2 h1:after {
+    content: " ";
+    position: absolute;
+    top: 1em;
+    right: 0;
+    width: 20%;
+    height: 40%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff; }
+
+.slide3 {
+  background: url("../img/earth.jpg");
+  background-size: cover; }
+  .slide3 h1:before {
+    border-right: 1px solid #ffffff;
+    left: 0; }
+
+.swiper-button-next, .swiper-button-prev {
+  top: 85%;
+  outline: none; }
+
+.swiper-button-prev {
+  left: 3em; }
+
+.swiper-button-next {
+  right: 3em; }
+
+/*# sourceMappingURL=style.css.map */
